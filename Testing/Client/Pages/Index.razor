@@ -1,0 +1,50 @@
+﻿@page "/"
+@using Testing.Shared
+@using Syncfusion.Blazor.Grids
+@using Syncfusion.Blazor.Cards
+@using Syncfusion.Blazor.Buttons
+
+<h1>Hello, world!</h1>
+
+<SfGrid DataSource="@Employees">
+    <GridColumns>
+        <GridColumn Field=@nameof(Employee.ID) HeaderText="ID"></GridColumn>
+        <GridColumn Field=@nameof(Employee.Name) HeaderText="Name"></GridColumn>
+        <GridColumn Field=@nameof(Employee.LastName) HeaderText="Last Name"></GridColumn>
+        <GridColumn Field=@nameof(Employee.Gender) HeaderText="Gender"></GridColumn>
+    </GridColumns>
+</SfGrid>
+
+<SfCard>
+    <CardImage Image="img/cards/basic.jpg" />
+    <CardHeader Title="Debunking Five Data Science Myths" />
+    <CardContent Content="Tech evangelists are currently pounding their pulpits about all things AI, machine learning, analytics—anything that sounds" />
+    <CardFooter>
+        <CardFooterContent>
+            <SfButton CssClass="e-btn e-outline e-primary">Read More</SfButton>
+        </CardFooterContent>
+    </CardFooter>
+</SfCard>
+
+@code{ 
+    public List<Employee> Employees { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Employees = LoadData();
+    }
+
+    private List<Employee> LoadData()
+    {
+        Employee e1 = new Employee
+        {
+            ID = 1,
+            Name = "Jhon",
+            LastName = "Something",
+            BirthDate = new DateTime(1980, 10, 5),
+            Gender = Gender.Male
+        };
+        return new List<Employee> { e1 };
+    }
+}

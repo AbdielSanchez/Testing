@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZGt+TwElGOMXM4CZJ/uG6LrqFVebYEYxUOy9wV7xgPWTZEzdsRiuP/HipdSkluHfhEfnvGp//RVRnb4XdI+rdw==",
+  "success": true,
+  "projectFilePath": "D:\\Blazor\\Testing\\Testing\\Shared\\Testing.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Necroaams\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
