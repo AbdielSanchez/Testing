@@ -1,0 +1,12 @@
+D:\Blazor\Testing\Testing\Shared\bin\Release\net5.0\Testing.Shared.deps.json
+D:\Blazor\Testing\Testing\Shared\bin\Release\net5.0\Testing.Shared.dll
+D:\Blazor\Testing\Testing\Shared\bin\Release\net5.0\ref\Testing.Shared.dll
+D:\Blazor\Testing\Testing\Shared\bin\Release\net5.0\Testing.Shared.pdb
+D:\Blazor\Testing\Testing\Shared\obj\Release\net5.0\Testing.Shared.csproj.AssemblyReference.cache
+D:\Blazor\Testing\Testing\Shared\obj\Release\net5.0\Testing.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Blazor\Testing\Testing\Shared\obj\Release\net5.0\Testing.Shared.AssemblyInfoInputs.cache
+D:\Blazor\Testing\Testing\Shared\obj\Release\net5.0\Testing.Shared.AssemblyInfo.cs
+D:\Blazor\Testing\Testing\Shared\obj\Release\net5.0\Testing.Shared.csproj.CoreCompileInputs.cache
+D:\Blazor\Testing\Testing\Shared\obj\Release\net5.0\Testing.Shared.dll
+D:\Blazor\Testing\Testing\Shared\obj\Release\net5.0\ref\Testing.Shared.dll
+D:\Blazor\Testing\Testing\Shared\obj\Release\net5.0\Testing.Shared.pdb
